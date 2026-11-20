@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>theSpoils Clips</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&display=swap">
+<style>
+/* Layout: single readable column; short header, then Privacy Policy and Terms as plain sections */
+:root{--bg:#f6f7fb;--fg:#15171f;--muted:#5a6072;--line:#dde0ea;--accent:#d2421f;
+--display:"Space Grotesk",system-ui,sans-serif;--body:"Inter",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12141b;--fg:#eceef4;--muted:#a3a9ba;--line:#2a2e3a;--accent:#ff7a52;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12141b;--fg:#eceef4;--muted:#a3a9ba;--line:#2a2e3a;--accent:#ff7a52;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.65 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px}
+main{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:40px}
+h1,h2{font-family:var(--display);text-wrap:balance;line-height:1.2;margin:0}
+h1{font-size:2.2rem}h2{font-size:1.4rem;padding-top:24px;border-top:1px solid var(--line)}
+h3{font-size:1rem;margin:20px 0 4px}
+p,ul{margin:8px 0}.muted{color:var(--muted);font-size:.9rem}
+.tag{color:var(--accent);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:.78rem}
+a{color:var(--accent)}a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+nav{display:flex;gap:16px;flex-wrap:wrap}
+</style>
+</head><body>
+<main>
+<header>
+<div class="tag">Short-form gaming clips</div>
+<h1>theSpoils Clips</h1>
+<p>theSpoils Clips turns live gaming streams into vertical short clips for YouTube Shorts, TikTok, Instagram Reels and X. Every clip credits the streamer and links back to their channel, and we only clip creators who allow it or who run an official clipping campaign.</p>
+<p>Our tool ("theSpoils Clipper") uploads our own finished clips to our own YouTube channel, <a href="https://www.youtube.com/@theSpoilsClips" target="_blank" rel="noopener">@theSpoilsClips</a>, through the YouTube Data API. It is used only by the theSpoils team.</p>
+<nav><a href="#privacy">Privacy Policy</a><a href="#terms">Terms of Service</a></nav>
+<p class="muted">Contact: thespoilsmedia@gmail.com</p>
+</header>
+
+<section id="privacy">
+<h2>Privacy Policy</h2>
+<p class="muted">Last updated 20 November 2026</p>
+<h3>Who uses the app</h3>
+<p>theSpoils Clipper is an internal tool. It is not offered to the public, and it signs in only with the theSpoils team's own Google account.</p>
+<h3>What we access through YouTube API Services</h3>
+<ul>
+<li><b>youtube.upload</b>: to upload our own finished clips to our own channel.</li>
+<li><b>youtube.readonly</b>: to confirm which of our channels we are uploading to and check upload status.</li>
+</ul>
+<p>We do not access, collect or store data about other YouTube users or viewers.</p>
+<h3>How data is stored</h3>
+<p>The Google sign-in token is stored only on our own computer, in a file readable only by our account. Video metadata (titles, descriptions, tags) is written by us. We do not sell or share any data with third parties.</p>
+<h3>Google and YouTube</h3>
+<p>This app uses YouTube API Services. By using it you are also bound by the <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>, and Google's handling of data is described in the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+<h3>Revoking access</h3>
+<p>Access can be revoked at any time from the Google security settings page at <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>. Deleting the local token file also removes our stored access.</p>
+<h3>Contact</h3>
+<p>Questions about this policy: thespoilsmedia@gmail.com</p>
+</section>
+
+<section id="terms">
+<h2>Terms of Service</h2>
+<p>theSpoils Clipper is for the theSpoils team's internal use only. Use of this app is also subject to the <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>. Clips we publish credit the original creator, and creators can ask us to remove a clip at thespoilsmedia@gmail.com. We remove it within 48 hours.</p>
+</section>
+</main>
+</body></html>
